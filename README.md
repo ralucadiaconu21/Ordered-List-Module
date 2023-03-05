@@ -4,6 +4,8 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Features](#features)
+* [Class Diagram](#class-diagram)
 
 ## General info
 This project contains two Linked Lists that optimally add or remove elements. Both lists accept any type of data as elements. The elements are added/removed in a specified order.
@@ -21,6 +23,7 @@ It also shows the difference between the running times of the optimized or unopt
 * QuickPushOrderedList optimally adds elements. The sorting logic is included in the Pop method.
 * Display the content of the lists.
 * Display the difference in time between the optimized and unoptimized operations (push/pop).
+* Console app for testing.
 
 ## Class Diagram
 ```mermaid
