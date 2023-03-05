@@ -66,22 +66,6 @@ public abstract class QuickPushOrderedList<T> extends OptimizedLinkedList<T> {
     	}
 		this.length-=1;
 	}
-    
-    
-    /*
-     * Method that displays the content of the list
-     */
-    @Override
-	public void displayList() {
-		
-		LinkedListNode<T> currentNode = this.head;
-	    
-	    while (currentNode != null) {
-	        System.out.print(currentNode.value + " ");
-	        currentNode = currentNode.next;
-	    }
-	    System.out.println();
-	}
 	
     
     /*

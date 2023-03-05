@@ -20,5 +20,13 @@ public abstract class OptimizedLinkedList<T> implements OptimizedList<T> {
     /*
      * Method that displays the content of the list
      */
-	protected abstract void displayList();
+	protected void displayList() {
+		LinkedListNode<T> currentNode = this.head;
+	    
+	    while (currentNode != null) {
+	        System.out.print(currentNode.value + " ");
+	        currentNode = currentNode.next;
+	    }
+	    System.out.println();
+	}
 }
