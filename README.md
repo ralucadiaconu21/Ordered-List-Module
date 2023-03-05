@@ -27,7 +27,7 @@ title: Ordered List Class Diagram
 ---
 
 classDiagram
-	OptimizedList <|-- OptimizedLinkedList
+	OptimizedLinkedList <|-- OptimizedList
 	OptimizedLinkedList o-- LinkedListNode
 	QuickPushOrderedList <|-- OptimizedLinkedList
 	QuickPopOrderedList <|-- OptimizedLinkedList
